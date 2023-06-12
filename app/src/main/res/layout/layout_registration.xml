@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nk11"
+    >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/serch_round"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="YourEmail"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/serch_round"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/Cpassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/serch_round"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registerB"
+        android:layout_below="@+id/Cpassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="9dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/registerB"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/serch_round"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="141dp"
+        android:text="Register" />
+
+    <!--<Button-->
+        <!--android:id="@+id/registerB"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_below="@+id/progressBar"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+
+        <!--android:layout_marginStart="160dp"-->
+        <!--android:layout_marginTop="23dp"-->
+        <!--android:layout_marginEnd="163dp"-->
+        <!--android:layout_marginBottom="222dp"-->
+        <!--android:text="Register"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/overview"
+        android:icon="@drawable/ic_show_chart_black_24dp"
+        android:title="Overview" />
+    <item
+        android:id="@+id/ecodrive"
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+        android:title="Ecodrive" />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="Chat" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="Account" />
+</menu>

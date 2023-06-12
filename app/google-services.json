@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "50241978580",
+    "firebase_url": "https://sihsigma.firebaseio.com",
+    "project_id": "sihsigma",
+    "storage_bucket": "sihsigma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50241978580:android:559f07c5769783ee",
+        "android_client_info": {
+          "package_name": "com.sid.androsid.ecodrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50241978580-5699vgc0p1u6jipkq1kf9r6ofp01nl64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTXDpFDNkZ3439Z74q5_rFfw6YKCNy14o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

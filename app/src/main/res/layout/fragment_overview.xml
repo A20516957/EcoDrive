@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.sid.androsid.ecodrive.BottomNavigation.OverviewFragment">
+
+
+  <ListView
+
+      android:id="@+id/listview"
+      android:layout_width="match_parent"
+      android:layout_height="308dp"
+      android:background="@drawable/overpeeche" />
+
+  <include
+      layout="@layout/barchart"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="bottom"
+      android:layout_marginTop="1dp"/>
+
+</FrameLayout>
